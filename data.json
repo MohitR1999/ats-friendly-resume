@@ -1,0 +1,94 @@
+{
+    "education": [
+        {
+            "degree": "B.Tech (Computer Engineering), CGPA: 8.36",
+            "university": "Delhi Technological University",
+            "location": "Delhi, India",
+            "year": "July 2021"
+        },
+        {
+            "degree": "AISSCE (Class XII), Percentage: 95.2%",
+            "university": "Vanasthali Public School",
+            "location": "Delhi, India",
+            "year": "July 2017"
+        },
+        {
+            "degree": "AISSE (Class X), CGPA: 10.0",
+            "university": "Vanasthali Public School",
+            "location": "Delhi, India",
+            "year": "July 2015"
+        }
+    ],
+    "experience": [
+        {
+            "title": "Research and Development Engineer",
+            "company": "Tejas Networks Ltd.",
+            "location": "Gurugram, Haryana, India",
+            "duration": "July 2021 - Present",
+            "description": [
+                "Developed and implemented new features, including Circuit Emulation and QoS Enhancements, for carrier Ethernet Networks in TejNMS (Tejas Network Management System) app",
+                "Installed and configured multiple network element simulators, providing a realistic testing environment, using Docker",
+                "Utilized Selenium and TestNG to automate regression testing, resulting in improved efficiency and reduced testing time by 60%",
+                "Developed test scripts and executed automated tests to verify system functionality, identify bugs, and ensure product quality",
+                "Played a key role in migrating the existing codebase of the TejNMS from CVS to Git, enhancing version control and collaboration processes",
+                "Currently involved in the development of a user-friendly Border Gateway Protocol (BGP) configuration UI for Layer 3 provisioning in TejNMS"
+            ]
+        },
+        {
+            "title": "R & D Engineer Intern",
+            "company": "Tejas Networks Ltd.",
+            "location": "Gurugram, Haryana, India",
+            "duration": "January 2021 - July 2021",
+            "description": [
+                "Achieved enhanced code quality through in-depth analysis and optimized flow by leveraging library functions of DHTMLX, minimizing redundancy",
+                "Significantly improved TejNMS UI by implementing modern JavaScript practices and asynchronous operations, resulting in shorter development time and highly predictable code behavior."
+            ]
+        },
+        {
+            "title": "Front-end Developer Intern",
+            "company": "Stepswatch",
+            "location": "India",
+            "duration": "March 2020 - May 2020",
+            "description": [
+                "Designed and developed the Stepswatch mobile app from scratch using React Native, Redux, and Node.js",
+                "Implemented authentication and state management using Redux and JWT (JSON Web Tokens), ensuring secure user sessions and data protection",
+                "Integrated real-time chat functionality using socket.io, allowing users to engage in seamless and instant communication within the app"
+            ]
+        },
+        {
+            "title": "University Student Intern",
+            "company": "Delhi Technological University",
+            "location": "Delhi, India",
+            "duration": "August 2019 - March 2020",
+            "description": [
+                "Designed and developed the website for Intellectual Property Rights Cell, DTU <a href=\"https://mohitr1999.github.io/iprCellWebsite/\" color=\"blue\">(Link)</a>",
+                "Developed the website for International Summit on Quality Indices in Higher Education"
+            ]
+        }
+    ],
+    "skills": [
+        "Programming Languages: Javascript, C++, Python",
+        "Version control systems: Git, CVS",
+        "Frameworks and Libraries: React.js, React Native, Redux"
+    ],
+
+    "projects" : [
+        {
+            "title" : "C Compiler in Javascript",
+            "description" : "A C compiler, written purely in Javascript from scratch <a href=\"https://github.com/MohitR1999/compiler-in-javascript\" color=\"blue\">(GitHub)</a>",
+            "link" : "<a href=\"https://github.com/MohitR1999/compiler-in-javascript\" color=\"blue\">(GitHub)</a>"
+        },
+
+        {
+            "title" : "Vitarit File Pranali",
+            "description" : "A distributed file system implemented using python and rpyc <a href=\"https://github.com/MohitR1999/vitarit-file-pranali\" color=\"blue\">(GitHub)</a>",
+            "link" : "<a href=\"https://github.com/MohitR1999/vitarit-file-pranali\" color=\"blue\">(GitHub)</a>"
+        },
+
+        {
+            "title" : "Maestro-bot",
+            "description" : "A Discord bot, that shows you memes and pictures as you say <a href=\"https://github.com/MohitR1999/maestro-bot\" color=\"blue\">(GitHub)</a>",
+            "link" : "<a href=\"https://github.com/MohitR1999/maestro-bot\" color=\"blue\">(GitHub)</a>"
+        }
+    ]
+}
