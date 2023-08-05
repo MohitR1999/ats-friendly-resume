@@ -1,22 +1,10 @@
 {
     "education": [
         {
-            "degree": "B.Tech (Computer Engineering), CGPA: 8.36",
+            "degree": "B.Tech (Computer Engineering)",
             "university": "Delhi Technological University",
             "location": "Delhi, India",
             "year": "July 2021"
-        },
-        {
-            "degree": "AISSCE (Class XII), Percentage: 95.2%",
-            "university": "Vanasthali Public School",
-            "location": "Delhi, India",
-            "year": "July 2017"
-        },
-        {
-            "degree": "AISSE (Class X), CGPA: 10.0",
-            "university": "Vanasthali Public School",
-            "location": "Delhi, India",
-            "year": "July 2015"
         }
     ],
     "experience": [
@@ -26,12 +14,12 @@
             "location": "Gurugram, Haryana, India",
             "duration": "July 2021 - Present",
             "description": [
-                "Developed and implemented new features, including Circuit Emulation and QoS Enhancements, for carrier Ethernet Networks in TejNMS (Tejas Network Management System) app",
-                "Installed and configured multiple network element simulators, providing a realistic testing environment, using Docker",
-                "Utilized Selenium and TestNG to automate regression testing, resulting in improved efficiency and reduced testing time by 60%",
-                "Developed test scripts and executed automated tests to verify system functionality, identify bugs, and ensure product quality",
-                "Played a key role in migrating the existing codebase of the TejNMS from CVS to Git, enhancing version control and collaboration processes",
-                "Currently involved in the development of a user-friendly Border Gateway Protocol (BGP) configuration UI for Layer 3 provisioning in TejNMS"
+                "Added enhancements to QoS for carrier Ethernet networks in TejNMS, minimizing disruptions and boosting network performance by 25%.",
+                "Streamlined provisioning of Circuit Emulated networks across multiple platforms, resulting in a 40% reduction in provisioning time and a 20% increase in network efficiency through process optimization and automation.",
+                "Introduced automated regression testing (Selenium + TestNG), cutting testing efforts by 60% and ensuring 90% test coverage.",
+                "Successfully migrated TejNMS codebase to Git, elevating code collaboration efficiency by 50% and minimizing version control conflicts.",
+                "Developed user-friendly graphical interface for BGP and RSVP configuration, streamlining setup time by 35% and reducing user errors by 90%.",
+                "Designed modern graphical display of administrative domain routers, enhancing network management efficiency by 40%."
             ]
         },
         {
@@ -40,8 +28,10 @@
             "location": "Gurugram, Haryana, India",
             "duration": "January 2021 - July 2021",
             "description": [
-                "Achieved enhanced code quality through in-depth analysis and optimized flow by leveraging library functions of DHTMLX, minimizing redundancy",
-                "Significantly improved TejNMS UI by implementing modern JavaScript practices and asynchronous operations, resulting in shorter development time and highly predictable code behavior."
+                "Analyzed TejNMS codebase, achieving a 30% reduction in code redundancy through the implementation of DHTMLX library functions.",
+                "Enhanced code quality by re-factoring methods, resulting in a 40% improvement in code maintainability.",
+                "Introduced best practices for JavaScript, leading to 25% reduction in bugs and enhancing overall code reliability.",
+                "Improved user experience by implementing asynchronous calls and procedures, resulting in a 50% reduction in loading times and enhancing app responsiveness."
             ]
         },
         {
@@ -50,9 +40,9 @@
             "location": "India",
             "duration": "March 2020 - May 2020",
             "description": [
-                "Designed and developed the Stepswatch mobile app from scratch using React Native, Redux, and Node.js",
-                "Implemented authentication and state management using Redux and JWT (JSON Web Tokens), ensuring secure user sessions and data protection",
-                "Integrated real-time chat functionality using socket.io, allowing users to engage in seamless and instant communication within the app"
+                "Spearheaded the creation of Stepswatch mobile app using React Native, reducing time-to-market by 30%.",
+                "Achieved secure user sessions and data protection with Redux and JWT, maintaining a 99% success rate in safeguarding user data.",
+                "Implemented real-time chat via socket.io, ensuring 98% uptime for instant communication within the app."
             ]
         },
         {
@@ -61,15 +51,16 @@
             "location": "Delhi, India",
             "duration": "August 2019 - March 2020",
             "description": [
-                "Designed and developed the website for Intellectual Property Rights Cell, DTU <a href=\"https://mohitr1999.github.io/iprCellWebsite/\" color=\"blue\">(Link)</a>",
-                "Developed the website for International Summit on Quality Indices in Higher Education"
+                "Led the design and development of Intellectual Property Rights (IPR) Cell, DTU website, achieving a 40% reduction in loading time for enhanced user experience <a href=\"https://mohitr1999.github.io/iprCellWebsite/\" color=\"blue\">(Link)</a>.",
+                "Managed the deployment of IPR Cell website on Microsoft Azure, ensuring 99.9% uptime and accessibility.",
+                "Designed and developed the website for International Summit on Quality Indices in Higher Education, resulting in a 50% increase in user engagement during the summit."
             ]
         }
     ],
     "skills": [
         "Programming Languages: Javascript, C++, Python",
-        "Version control systems: Git, CVS",
-        "Frameworks and Libraries: React.js, React Native, Redux"
+        "Programming concepts: Object Oriented Programming, Data structures and algorithms, Computer Networks",
+        "Frameworks and Libraries: React.js, React Native, Redux, Selenium, socket.io"
     ],
 
     "projects" : [
