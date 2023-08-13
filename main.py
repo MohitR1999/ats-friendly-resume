@@ -39,37 +39,7 @@ def appendSectionTableStyle(table_styles, running_row_index):
     table_styles.append(('LINEBELOW', (0, running_row_index), (-1, running_row_index), 1, colors.black))
 
 
-def generate_resume(file_path, json_file_path):
-    config = None
-    debug = 'false'
-    author = 'anonymous'
-    email = 'abc@xyz.com'
-    address = 'XXX'
-    phone = '00-0000000000'
-    
-    if (os.path.isfile('./config.ini')):
-        config = configparser.ConfigParser()
-        config.read('./config.ini')
-        # Check if debug option is present
-        if (config.has_option('global', 'debug')):
-            debug = config.get('global', 'debug')
-        
-        # Check if author is present
-        if (config.has_option('global', 'author')):
-            author = config.get('global', 'author')
-
-        # Check if email address is present
-        if (config.has_option('global', 'email')):
-            email = config.get('global', 'email')
-
-        # Check if address is present
-        if (config.has_option('global', 'address')):
-            address = config.get('global', 'address')
-
-        # Check if author is present
-        if (config.has_option('global', 'phone')):
-            phone = config.get('global', 'phone')
-    
+def generate_resume(file_path, json_file_path, author, email, address, phone, debug):
     doc = SimpleDocTemplate(file_path, pagesize=A4, showBoundary=0, leftMargin = 0.5 * inch, rightMargin= 0.5 * inch, topMargin = 0.2 * inch, bottomMargin = 0.1 * inch, title = f"Resume of {author}", author = author)
     with open(json_file_path, 'r') as file:
         data = json.load(file)
@@ -201,6 +171,37 @@ def generate_resume(file_path, json_file_path):
     doc.build(elements)
 
 if __name__ == "__main__":
-    OUTPUT_PDF_PATH = "./output.pdf"
+    config = None
+    debug = 'false'
+    author = 'anonymous'
+    email = 'abc@xyz.com'
+    address = 'XXX'
+    phone = '00-0000000000'
+    
+    if (os.path.isfile('./config.ini')):
+        config = configparser.ConfigParser()
+        config.read('./config.ini')
+        # Check if debug option is present
+        if (config.has_option('global', 'debug')):
+            debug = config.get('global', 'debug')
+        
+        # Check if author is present
+        if (config.has_option('global', 'author')):
+            author = config.get('global', 'author')
+
+        # Check if email address is present
+        if (config.has_option('global', 'email')):
+            email = config.get('global', 'email')
+
+        # Check if address is present
+        if (config.has_option('global', 'address')):
+            address = config.get('global', 'address')
+
+        # Check if author is present
+        if (config.has_option('global', 'phone')):
+            phone = config.get('global', 'phone')
+
+    OUTPUT_PDF_PATH = f"./{author.lower().replace(' ', '_')}_resume.pdf"
     JSON_PATH = "./data.json"
-    generate_resume(OUTPUT_PDF_PATH, JSON_PATH)
+
+    generate_resume(OUTPUT_PDF_PATH, JSON_PATH, author, email, address, phone, debug)
