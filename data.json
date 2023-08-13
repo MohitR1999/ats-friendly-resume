@@ -4,7 +4,7 @@
             "degree": "B.Tech (Computer Engineering)",
             "university": "Delhi Technological University",
             "location": "Delhi, India",
-            "year": "July 2021"
+            "year": "August 2017 - July 2021"
         }
     ],
     "experience": [
@@ -14,12 +14,12 @@
             "location": "Gurugram, Haryana, India",
             "duration": "July 2021 - Present",
             "description": [
-                "Added enhancements to QoS for carrier Ethernet networks in TejNMS, minimizing disruptions and boosting network performance by 25%.",
+                "Added multiple enhancements to management of QoS (Quality of Service) during provisioning of carrier ethernet networks from TejNMS, minimizing disruptions and boosting network performance by 25%.",
                 "Streamlined provisioning of Circuit Emulated networks across multiple platforms, resulting in a 40% reduction in provisioning time and a 20% increase in network efficiency through process optimization and automation.",
                 "Introduced automated regression testing (Selenium + TestNG), cutting testing efforts by 60% and ensuring 90% test coverage.",
-                "Successfully migrated TejNMS codebase to Git, elevating code collaboration efficiency by 50% and minimizing version control conflicts.",
-                "Developed user-friendly graphical interface for BGP and RSVP configuration, streamlining setup time by 35% and reducing user errors by 90%.",
-                "Designed modern graphical display of administrative domain routers, enhancing network management efficiency by 40%."
+                "Orchestrated the seamless transition of the TejNMS codebase from CVS to Git, resulting in a 50% improvement in code collaboration efficiency and a significant reduction in version control conflicts.",
+                "Developed user-friendly graphical interfaces for BGP and RSVP configuration, streamlining setup time by 35% and reducing user errors by 90%.",
+                "Developed an intuitive network visualization solution for managing the ISP's administrative domain, using cytoscape.js, enhancing user experience and reducing errors by 50%."
             ]
         },
         {
@@ -44,41 +44,42 @@
                 "Achieved secure user sessions and data protection with Redux and JWT, maintaining a 99% success rate in safeguarding user data.",
                 "Implemented real-time chat via socket.io, ensuring 98% uptime for instant communication within the app."
             ]
-        },
-        {
-            "title": "University Student Intern",
-            "company": "Delhi Technological University",
-            "location": "Delhi, India",
-            "duration": "August 2019 - March 2020",
-            "description": [
-                "Led the design and development of Intellectual Property Rights (IPR) Cell, DTU website, achieving a 40% reduction in loading time for enhanced user experience <a href=\"https://mohitr1999.github.io/iprCellWebsite/\" color=\"blue\">(Link)</a>.",
-                "Managed the deployment of IPR Cell website on Microsoft Azure, ensuring 99.9% uptime and accessibility.",
-                "Designed and developed the website for International Summit on Quality Indices in Higher Education, resulting in a 50% increase in user engagement during the summit."
-            ]
         }
     ],
     "skills": [
         "Programming Languages: Javascript, C++, Python",
         "Programming concepts: Object Oriented Programming, Data structures and algorithms, Computer Networks",
-        "Frameworks and Libraries: React.js, React Native, Redux, Selenium, socket.io"
+        "Frameworks and Libraries: React.js, React Native, Redux, Selenium, socket.io, reportlab, cytoscape.js"
     ],
 
     "projects" : [
         {
-            "title" : "C Compiler in Javascript",
-            "description" : "A C compiler, written purely in Javascript from scratch <a href=\"https://github.com/MohitR1999/compiler-in-javascript\" color=\"blue\">(GitHub)</a>",
+            "title" : "ATS-friendly resume generator",
+            "description" : "Developed a user-friendly resume generator in Python, designed to be ATS-friendly, configurable, and effortlessly usable. This resume itself was generated using the tool.",
+            "link" : "<a href=\"https://github.com/MohitR1999/ats-friendly-resume\" color=\"blue\">(GitHub)</a>"
+        },
+        
+        {
+            "title" : "Compiler in Javascript",
+            "description" : "Created a comprehensive C compiler from scratch in JavaScript, effectively illustrating the core phases of compiling a C source file into its assembly equivalent.",
             "link" : "<a href=\"https://github.com/MohitR1999/compiler-in-javascript\" color=\"blue\">(GitHub)</a>"
         },
 
         {
+            "title" : "Website for IPR Cell, DTU",
+            "description" : "Constructed an engaging, Bootstrap-powered website for DTU's Intellectual Property Rights Cell.",
+            "link" : "<a href=\"https://mohitr1999.github.io/iprCellWebsite\" color=\"blue\">(Link)</a>"
+        },
+
+        {
             "title" : "Vitarit File Pranali",
-            "description" : "A distributed file system implemented using python and rpyc <a href=\"https://github.com/MohitR1999/vitarit-file-pranali\" color=\"blue\">(GitHub)</a>",
+            "description" : "Implemented a distributed file system using Python and rpyc, demonstrating the foundational concepts of replication and redundancy.",
             "link" : "<a href=\"https://github.com/MohitR1999/vitarit-file-pranali\" color=\"blue\">(GitHub)</a>"
         },
 
         {
             "title" : "Maestro-bot",
-            "description" : "A Discord bot, that shows you memes and pictures as you say <a href=\"https://github.com/MohitR1999/maestro-bot\" color=\"blue\">(GitHub)</a>",
+            "description" : "Developed a flexible Discord bot enabling instant meme and image retrieval, enhancing platform engagement.",
             "link" : "<a href=\"https://github.com/MohitR1999/maestro-bot\" color=\"blue\">(GitHub)</a>"
         }
     ]
