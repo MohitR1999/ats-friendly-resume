@@ -4,7 +4,7 @@ from reportlab.lib.units import inch
 from reportlab.lib import colors
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Table, TableStyle
 from reportlab.lib.styles import ParagraphStyle
-from reportlab.lib.enums import TA_RIGHT
+from reportlab.lib.enums import TA_RIGHT, TA_JUSTIFY
 import json
 import configparser
 import os
@@ -24,7 +24,7 @@ pdfmetrics.registerFont(ttfonts.TTFont(GARAMOND_REGULAR, GARAMOND_REGULAR_FONT_P
 pdfmetrics.registerFont(ttfonts.TTFont(GARAMOND_BOLD, GARAMOND_BOLD_FONT_PATH))
 pdfmetrics.registerFont(ttfonts.TTFont(GARAMOND_SEMIBOLD, GARAMOND_SEMIBOLD_FONT_PATH))
 
-JOB_DETAILS_PARAGRAPH_STYLE = ParagraphStyle('job_details_paragraph', leftIndent=12, fontName = GARAMOND_REGULAR, fontSize = 12, leading = 14)
+JOB_DETAILS_PARAGRAPH_STYLE = ParagraphStyle('job_details_paragraph', leftIndent=12, fontName = GARAMOND_REGULAR, fontSize = 12, leading = 14, alignment = TA_JUSTIFY)
 NAME_PARAGRAPH_STYLE = ParagraphStyle('name_paragraph', fontName = GARAMOND_SEMIBOLD, fontSize=16)
 CONTACT_PARAGRAPH_STYLE = ParagraphStyle('contact_paragraph', fontName = GARAMOND_REGULAR, fontSize=12)
 SECTION_PARAGRAPH_STYLE = ParagraphStyle('section_paragraph', fontName = GARAMOND_SEMIBOLD, fontSize=13, textTransform = 'uppercase')
@@ -135,7 +135,7 @@ def generate_resume(file_path, json_file_path, author, email, address, phone, de
 
     for project in data['projects']:
         table_data.append([
-            Paragraph(project['description'], bulletText='•', style=COMPANY_TITLE_PARAGRAPH_STYLE),
+            Paragraph(f"<font face='Garamond_Semibold'>{project['title']}: </font>{project['description']} {project['link']}", bulletText='•', style=JOB_DETAILS_PARAGRAPH_STYLE),
         ])
         table_styles.append(('TOPPADDING', (0, running_row_index), (1, running_row_index), 1))
         table_styles.append(('SPAN', (0, running_row_index), (1, running_row_index)))
