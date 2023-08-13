@@ -2,3 +2,4 @@ env
 .vscode
 output.pdf
 config.ini
+*.pdf
