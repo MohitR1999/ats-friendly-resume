@@ -138,6 +138,7 @@ def generate_resume(file_path, json_file_path, author, email, address, phone, de
             Paragraph(f"<font face='Garamond_Semibold'>{project['title']}: </font>{project['description']} {project['link']}", bulletText='•', style=JOB_DETAILS_PARAGRAPH_STYLE),
         ])
         table_styles.append(('TOPPADDING', (0, running_row_index), (1, running_row_index), 1))
+        table_styles.append(('BOTTOMPADDING', (0, running_row_index), (1, running_row_index), 0))
         table_styles.append(('SPAN', (0, running_row_index), (1, running_row_index)))
         running_row_index += 1
 

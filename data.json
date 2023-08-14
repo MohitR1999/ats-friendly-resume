@@ -54,7 +54,7 @@
 
     "projects" : [
         {
-            "title" : "ATS-friendly resume generator",
+            "title" : "Resume generator",
             "description" : "Developed a user-friendly resume generator in Python, designed to be ATS-friendly, configurable, and effortlessly usable. This resume itself was generated using the tool.",
             "link" : "<a href=\"https://github.com/MohitR1999/ats-friendly-resume\" color=\"blue\">(GitHub)</a>"
         },
