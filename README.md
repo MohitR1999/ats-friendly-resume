@@ -7,7 +7,7 @@ This is an attempt to create an ATS friendly resume in python. I'm intending to 
 - Clone this repository
 - Create a virtual environment by running the command ```python3 -m venv env```
 - Activate the virtual environment by running the ```activate``` script for your respective operating system 
-- Install all the required libraries by running ```pip install requirements.txt```
+- Install all the required libraries by running ```pip install -r requirements.txt```
 - Create a ```config.ini``` file as follows:
 
 ```
