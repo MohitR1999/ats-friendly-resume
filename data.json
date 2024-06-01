@@ -1,7 +1,7 @@
 {
     "education": [
         {
-            "degree": "B.Tech (Computer Engineering)",
+            "degree": "B.Tech (Computer Engineering), CGPA - 8.36",
             "university": "Delhi Technological University",
             "location": "Delhi, India",
             "year": "August 2017 - July 2021"
@@ -14,11 +14,11 @@
             "location": "Gurugram, Haryana, India",
             "duration": "July 2021 - Present",
             "description": [
-                "Owned the network visualization solution for BSNL's MPLS-IP based Access and Aggregation Network (MAAN), aiming to ease the network administration overheads and reducing errors by 50%",
-                "Added multiple enhancements to management of QoS (Quality of Service) during provisioning of carrier ethernet networks from TejNMS, minimizing disruptions and boosting network performance by 25%.",
-                "Introduced automated regression testing (Selenium + TestNG), cutting testing efforts by 60% and ensuring 90% test coverage.",
-                "Orchestrated the seamless transition of the TejNMS codebase from CVS to Git, resulting in a 50% improvement in code collaboration efficiency and a significant reduction in version control conflicts.",
-                "Developed user-friendly graphical interfaces for BGP and RSVP configuration, streamlining setup time by 35% and reducing user errors by 90%."
+                "Owned the complete system architecture design and development of network visualization solution for BSNL's MPLS-IP based Access and Aggregation Network (MAAN), aiming to ease the network administration overheads and reducing errors by 50%.",
+                "Successfully ported the legacy Java Swing based applet UI to modern javascript-based UI using React.js and cytoscape.js, improving the app loading time by 90%, from 30 seconds to 3 seconds.",
+                "Created user-friendly GUIs for BGP (Border Gateway Protocol) and RSVP (Resource Reservation Protocol) configuration, cutting down provisioning time from 5 minutes to 1 minute.",
+                "Orchestrated the seamless transition of the TejNMS codebase from CVS to Git, resulting in a 50% improvement in collaboration efficiency and a significant reduction in version control conflicts.",
+                "Introduced automated regression testing using Selenium and TestNG, cutting testing efforts by 60% and ensuring 90% test coverage."
             ]
         },
         {
@@ -27,40 +27,40 @@
             "location": "Gurugram, Haryana, India",
             "duration": "January 2021 - July 2021",
             "description": [
-                "Analyzed TejNMS codebase, achieving a 30% reduction in code redundancy through the implementation of DHTMLX library functions.",
-                "Enhanced code quality by re-factoring methods, resulting in a 40% improvement in code maintainability.",
+                "Restructured the UI codebase, achieving a 30% reduction in redundancy through the implementation of DHTMLX library functions.",
+                "Enhanced code quality by re-factoring methods, resulting in a 40% improvement in maintainability.",
                 "Introduced best practices for JavaScript, leading to 25% reduction in bugs and enhancing overall code reliability.",
                 "Improved user experience by implementing asynchronous calls and procedures, resulting in a 50% reduction in loading times and enhancing app responsiveness."
             ]
         },
         {
-            "title": "Front-end Developer Intern",
+            "title": "Mobile Frontend Software Engineer Intern",
             "company": "Stepswatch",
             "location": "India",
             "duration": "March 2020 - May 2020",
             "description": [
-                "Spearheaded the creation of Stepswatch mobile app using React Native, reducing time-to-market by 30%.",
-                "Achieved secure user sessions and data protection with Redux and JWT, maintaining a 99% success rate in safeguarding user data.",
+                "Spearheaded the UI development of Stepswatch mobile app based on flux architecture, using React Native and Redux for the frontend, express server for backend and mongoDB as the database.",
+                "Achieved secure user sessions and data protection with JWT and in-house authentication mechanisms, maintaining a 99% success rate in safeguarding user data.",
                 "Implemented real-time chat via socket.io, ensuring 98% uptime for instant communication within the app."
             ]
         }
     ],
     "skills": [
-        "Programming Languages: Javascript, C++, Python",
-        "Programming concepts: Object Oriented Programming, Data structures and algorithms, Computer Networks",
+        "Programming Languages: Javascript, C++, Java, Python",
+        "Programming concepts: Object-Oriented Programming, Data structures and algorithms, Computer Networks",
         "Frameworks and Libraries: React.js, React Native, Redux, Selenium, socket.io, reportlab, cytoscape.js"
     ],
 
     "projects" : [
         {
             "title" : "Resume generator",
-            "description" : "Developed a user-friendly resume generator in Python, designed to be ATS-friendly, configurable, and effortlessly usable. This resume itself was generated using the tool.",
+            "description" : "Developed a user-friendly resume generator in Python, designed to be ATS-friendly, configurable, and effortlessly usable. This resume was generated using the tool.",
             "link" : "<a href=\"https://github.com/MohitR1999/ats-friendly-resume\" color=\"blue\">(GitHub)</a>"
         },
         
         {
             "title" : "Compiler in Javascript",
-            "description" : "Created a comprehensive C compiler from scratch in JavaScript, effectively illustrating the core phases of compiling a C source file into its assembly equivalent.",
+            "description" : "Created a comprehensive C compiler from scratch in JavaScript, effectively illustrating the core phases of compiling a source file into its equivalent machine code",
             "link" : "<a href=\"https://github.com/MohitR1999/compiler-in-javascript\" color=\"blue\">(GitHub)</a>"
         },
 
@@ -72,13 +72,13 @@
 
         {
             "title" : "Vitarit File Pranali",
-            "description" : "Implemented a distributed file system using Python and rpyc, demonstrating the foundational concepts of replication and redundancy.",
+            "description" : "Implemented a distributed file system using Python and rpyc, demonstrating the foundational concepts of data replication and redundancy.",
             "link" : "<a href=\"https://github.com/MohitR1999/vitarit-file-pranali\" color=\"blue\">(GitHub)</a>"
         },
 
         {
             "title" : "Maestro-bot",
-            "description" : "Developed a flexible Discord bot enabling instant meme and image retrieval, enhancing platform engagement.",
+            "description" : "Devised a flexible Discord bot enabling instant meme and image retrieval, enhancing platform engagement.",
             "link" : "<a href=\"https://github.com/MohitR1999/maestro-bot\" color=\"blue\">(GitHub)</a>"
         }
     ]
