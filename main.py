@@ -152,7 +152,7 @@ def generate_resume(file_path, json_file_path, author, email, address, phone, de
     # Append skills
     for skill in data['skills']:
         table_data.append([
-            Paragraph(skill, bulletText='•', style=JOB_DETAILS_PARAGRAPH_STYLE)
+            Paragraph(f"<font face='Garamond_Semibold'>{skill}</font>", bulletText='•', style=JOB_DETAILS_PARAGRAPH_STYLE)
         ])
         table_styles.append(('TOPPADDING', (0, running_row_index), (1, running_row_index), 1))
         table_styles.append(('BOTTOMPADDING', (0, running_row_index), (1, running_row_index), 0))
