@@ -15,7 +15,7 @@
             "duration": "April 2024 - Present",
             "description": [
                 "Devised a report generation utility for resource utilization within a network using Highcharts.js, enabling administrators for efficient monitoring and management of devices.",
-                "Implemented end-to-end provisioning of Border Gateway Protocol (BGP) conforming to the Open Networking Foundation's Transport API (TAPI).",
+                "Implemented end-to-end provisioning of Border Gateway Protocol (BGP) conforming to the Open Networking Foundation's Transport API (TAPI) and REST standards.",
                 "Orchestrated the seamless transition of the TejNMS codebase from CVS to Git, resulting in a 50% improvement in collaboration efficiency and a significant reduction in version control conflicts."
             ]
         },
