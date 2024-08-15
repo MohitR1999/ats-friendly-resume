@@ -3,3 +3,4 @@ env
 output.pdf
 config.ini
 *.pdf
+__pycache__
