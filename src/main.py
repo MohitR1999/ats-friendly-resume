@@ -6,13 +6,9 @@ from elements.resume_skill import Skill
 from sections.resume_section import Section
 
 from constants.resume_constants import RESUME_ELEMENTS_ORDER
-from reportlab.pdfbase import pdfmetrics, ttfonts
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import inch
-from reportlab.lib import colors
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Table, TableStyle
-from reportlab.lib.styles import ParagraphStyle
-from reportlab.lib.enums import TA_RIGHT, TA_JUSTIFY
 from constants.resume_constants import NAME_PARAGRAPH_STYLE, CONTACT_PARAGRAPH_STYLE
 from constants import FULL_COLUMN_WIDTH
 import json
