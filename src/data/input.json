@@ -41,10 +41,9 @@
             "start_date": "January 2021",
             "end_date": "July 2021",
             "description": [
-                "Improved user experience by implementing asynchronous calls using promises in javascript, resulting in a 50% reduction in loading times and enhancing app responsiveness.",
-                "Restructured the UI codebase, achieving a 30% reduction in redundancy through the implementation of DHTMLX library functions.",
-                "Enhanced code quality by re-factoring methods, resulting in a 40% improvement in maintainability.",
-                "Introduced best practices for JavaScript, leading to 25% reduction in bugs and enhancing overall code reliability."
+                "Developed software configuration microservice for Circuit Emulation (CEM) on multiple switching platforms such as CEF4 and CEF8.",
+                "Improved user experience by implementing asynchronous calls using promises in javascript, reducing overall application loading time from 10 to 0.5 seconds",
+                "Restructured the UI codebase, achieving a 30% reduction in redundancy through the implementation of DHTMLX library functions."
             ]
         },
         {
@@ -55,7 +54,7 @@
             "end_date": "May 2020",
             "description": [
                 "Spearheaded the UI development of Stepswatch mobile app based on flux architecture, using React Native and Redux for the frontend, Express server for backend and mongoDB as the database.",
-                "Achieved secure user sessions and data protection with JWT and in-house authentication mechanisms, maintaining a 99% success rate in safeguarding user data.",
+                "Achieved secure user sessions and data protection with JWT and in-house authentication microservice, maintaining a 99% success rate in safeguarding user data.",
                 "Implemented real-time chat via socket.io, ensuring 98% uptime for instant communication within the app."
             ]
         }
