@@ -18,8 +18,9 @@ email = <Your email>
 address = <Your address>
 phone = <Your phone number>
 ```
-This will set the debug configuration as false, which will generate the resume without any grid lines. If debug is set to true it will generate the resume with gridlines
-- Run the ```main.py``` file by executing the command ```python3 main.py```. This will generate a resume in PDF format with the name ```output.pdf``` in the project directory
+This will set the debug configuration as false, which will generate the resume without any grid lines. If debug is set to `true` it will generate the resume with gridlines
+- Navigate inside the `src` directory by running ```cd src/```
+- Run the ```main.py``` file by executing the command ```python3 main.py```. This will generate a resume in PDF format with the name ```output.pdf``` in the current directory
 - To customize the information in resume, just modify the ```data.json``` file with your required information
 - Personal information would be picked up from the ```config.ini``` file that is present in the project root
 
