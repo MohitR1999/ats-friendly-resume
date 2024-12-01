@@ -4,10 +4,10 @@ from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib import colors
 
 RESUME_ELEMENTS_ORDER = [
+    'skills',
     'experience',
     'education',
     'projects',
-    'skills',
     'achievements',
     'certifications'
 ]

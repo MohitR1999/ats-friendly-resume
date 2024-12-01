@@ -18,7 +18,7 @@ class Skill:
     def get_table_element(self, running_row_index : list, table_styles : list) -> list:
         table = []
         table.append([
-            Paragraph(f"<font face='Garamond_Semibold'>{self.title}: {", ".join(word for word in self.elements if word)}</font>", bulletText='•', style=JOB_DETAILS_PARAGRAPH_STYLE)
+            Paragraph(f"<font face='Garamond_Semibold'>{self.title}:</font> {", ".join(word for word in self.elements if word)}", bulletText='•', style=JOB_DETAILS_PARAGRAPH_STYLE)
         ])
         table_styles.append(('TOPPADDING', (0, running_row_index[0]), (1, running_row_index[0]), 1))
         table_styles.append(('BOTTOMPADDING', (0, running_row_index[0]), (1, running_row_index[0]), 0))
