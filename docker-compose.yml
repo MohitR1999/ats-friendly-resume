@@ -1,0 +1,5 @@
+services:
+  resume-generator:
+    build: .
+    volumes:
+      - ./src:/app/src

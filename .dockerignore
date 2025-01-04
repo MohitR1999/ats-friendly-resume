@@ -1,0 +1,5 @@
+env
+.vscode
+output.pdf
+*.pdf
+**/__pycache__
