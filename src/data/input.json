@@ -107,11 +107,17 @@
             "title" : "Cloud",
             "elements" : [
                 "Microsoft Azure",
-                "GCP"
+                "GCP",
+                "AWS"
             ]
         }
     ],
     "projects": [
+        {
+            "title": "Blog portal (In progress)",
+            "description": "A blog management and reading portal, based on microservices architecture, built using MERN stack with Nginx as reverse proxy, and being tracked using GitHub Projects. Currently having <a href=\"https://github.com/MohitR1999/portfolio-auth-microservice/\" color=\"blue\">Authentication microservice</a> and <a href=\"https://github.com/MohitR1999/portfolio-blog-microservice/\" color=\"blue\">Blog microservice</a>. ",
+            "link": "<a href=\"https://github.com/MohitR1999/portfolio-service\" color=\"blue\">(GitHub Monorepo)</a>"
+        },
         {
             "title": "Resume generator",
             "description": "Developed a user-friendly resume generator in Python, designed to be ATS-friendly, configurable, and effortlessly usable. This resume was generated using the tool.",
@@ -121,11 +127,6 @@
             "title": "Vitarit File Pranali",
             "description": "Implemented a distributed file system using Python and rpyc, demonstrating the foundational concepts of data replication and redundancy.",
             "link": "<a href=\"https://github.com/MohitR1999/vitarit-file-pranali\" color=\"blue\">(GitHub)</a>"
-        },
-        {
-            "title": "Maestro-bot",
-            "description": "Devised a flexible Discord bot enabling instant meme and image retrieval, enhancing platform engagement.",
-            "link": "<a href=\"https://github.com/MohitR1999/maestro-bot\" color=\"blue\">(GitHub)</a>"
         }
     ]
 }
