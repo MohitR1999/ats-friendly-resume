@@ -17,8 +17,8 @@
             "end_date": "Present",
             "description": [
                 "Led the complete architecture design and development of network visualization microservice for BSNL's MPLS-IP based Access and Aggregation Network (MAAN), the backbone for pan India BSNL 4G rollout, using React.js, Cytoscape.js and Express framework.",
-                "Developed microservices for configuration of BGP and RSVP protocols using Spring Boot, adhering to ONF's TAPI and REST standards, contributing to scalable network solutions.",
-                "Devised an efficient report generation utility for resource utilization within a network using Highcharts.js, enabling administrators for efficient monitoring and management of devices.",
+                "Developed microservices for configuration of BGP and RSVP protocols using Express, adhering to ONF's TAPI and REST standards, contributing to scalable network solutions.",
+                "Devised an efficient report generation utility for resource utilization within a network using React.js and Highcharts.js, enabling administrators for efficient monitoring and management of devices.",
                 "Guided cross-functional teams in transitioning version control systems from CVS to Git, improving collaboration efficiency by 50%."
             ]
         },
@@ -40,7 +40,7 @@
             "start_date": "January 2021",
             "end_date": "July 2021",
             "description": [
-                "Orchestrated multiple network element simulators using Docker, enabling seamless simulation environments for efficient development and testing.",
+                "Orchestrated multiple network element simulators using Docker and Docker compose, enabling seamless simulation environments for efficient development and testing.",
                 "Worked closely with backend engineers, product managers, and UI/UX designers to deliver cohesive solutions across all stages of the SDLC.",
                 "Improved user experience by implementing asynchronous calls using promises in javascript, reducing overall application loading time from 10 to 0.5 seconds."
             ]
@@ -65,7 +65,6 @@
             "elements" : [
                 "JavaScript",
                 "C++",
-                "Java",
                 "Python"
             ]
         },
@@ -78,9 +77,7 @@
                 "Express",
                 "Node.js",
                 "Selenium",
-                "socket.io",
-                "Spring",
-                "Spring boot"
+                "socket.io"
             ]
         },
 
@@ -107,8 +104,7 @@
             "title" : "Cloud",
             "elements" : [
                 "Microsoft Azure",
-                "GCP",
-                "AWS"
+                "GCP"
             ]
         }
     ],
