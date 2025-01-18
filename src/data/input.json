@@ -60,9 +60,11 @@
     ],
     "skills": [
         {
-            "title" : "Programming Languages",
+            "title" : "Programming Languages and Technologies",
             "elements" : [
                 "JavaScript",
+                "HTML5",
+                "CSS3",
                 "Python",
                 "Java",
                 "C++"
