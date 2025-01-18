@@ -16,10 +16,10 @@
             "start_date": "April 2024",
             "end_date": "Present",
             "description": [
-                "Led the complete architecture design and development of network visualization microservice for BSNL's MPLS-IP based Access and Aggregation Network (MAAN), the backbone for pan India BSNL 4G rollout, using React.js, Cytoscape.js and Express framework.",
-                "Developed microservices for configuration of BGP and RSVP protocols using Spring Boot, adhering to ONF's TAPI and REST standards, contributing to scalable network solutions.",
-                "Devised an efficient report generation utility for resource utilization within a network using Highcharts.js, enabling administrators for efficient monitoring and management of devices.",
-                "Guided cross-functional teams in transitioning version control systems from CVS to Git, improving collaboration efficiency by 50%."
+                "Led the complete architecture design and development of network visualization microservice for BSNL's MPLS-IP based Access and Aggregation Network (MAAN), for pan India BSNL 4G rollout, using React.js, Cytoscape.js and Express framework.",
+                "Optimized a critical database query fetching network elements within an organization, reducing execution time from 10 seconds to 0.3 seconds for over 5,000 rows.",
+                "Devised an efficient, real time performance throughput monitoring utility for network bandwidth utilization within a network using Highcharts.js, enabling administrators for effective monitoring and management of devices.",
+                "Improved user experience by implementing asynchronous calls using promises in javascript, reducing overall application loading time from 10 to 0.5 seconds."
             ]
         },
         {
@@ -29,6 +29,7 @@
             "start_date": "July 2021",
             "end_date": "April 2024",
             "description": [
+                "Guided cross-functional teams in transitioning version control systems from CVS to Git, improving collaboration efficiency by 50%.",
                 "Led front-end modernization, transitioning legacy Java Swing-based UI to modern React.js architecture with Redux and Material UI, improving load times from 30 seconds to 3 seconds.",
                 "Introduced automated regression testing using Selenium and TestNG, cutting testing efforts by 60% and ensuring 90% test coverage."
             ]
@@ -41,8 +42,7 @@
             "end_date": "July 2021",
             "description": [
                 "Orchestrated multiple network element simulators using Docker, enabling seamless simulation environments for efficient development and testing.",
-                "Worked closely with backend engineers, product managers, and UI/UX designers to deliver cohesive solutions across all stages of the SDLC.",
-                "Improved user experience by implementing asynchronous calls using promises in javascript, reducing overall application loading time from 10 to 0.5 seconds."
+                "Worked closely with backend engineers, product managers, and UI/UX designers to deliver cohesive solutions across all stages of the SDLC."
             ]
         },
         {
@@ -53,7 +53,6 @@
             "end_date": "May 2020",
             "description": [
                 "Led the UI development of Stepswatch mobile app based on Flux architecture using React Native and Redux achieving intuitive and performant interfaces.",
-                "Implemented fail-safe handling of network requests' side effects using Redux Thunk.",
                 "Built backend microservices, including a real-time chat feature, with Socket.io, ensuring 98% uptime for instant communication.",
                 "Secured user data by implementing JWT-based authentication within Express microservices, maintaining a 99% success rate in safeguarding information."
             ]
@@ -63,20 +62,20 @@
         {
             "title" : "Programming Languages",
             "elements" : [
+                "Python",
                 "JavaScript",
-                "C++",
                 "Java",
-                "Python"
+                "C++"
             ]
         },
         {
             "title" : "Frameworks and Libraries",
             "elements" : [
+                "Express",
+                "Node.js",
                 "React.js",
                 "React Native",
                 "Redux",
-                "Express",
-                "Node.js",
                 "Selenium",
                 "socket.io",
                 "Spring",
@@ -114,6 +113,11 @@
     ],
     "projects": [
         {
+            "title": "Vitarit File Pranali",
+            "description": "Implemented a scalable distributed file system using Python and rpyc, focusing on fault tolerance and efficient data replication. Developed redundancy mechanisms to ensure high availability and resilience to node failures.",
+            "link": "<a href=\"https://github.com/MohitR1999/vitarit-file-pranali\" color=\"blue\">(GitHub)</a>"
+        },
+        {
             "title": "Blog portal (In progress)",
             "description": "A blog management and reading portal, based on microservices architecture, built using MERN stack with Nginx as reverse proxy, and being tracked using GitHub Projects. Currently having <a href=\"https://github.com/MohitR1999/portfolio-auth-microservice/\" color=\"blue\">Authentication microservice</a> and <a href=\"https://github.com/MohitR1999/portfolio-blog-microservice/\" color=\"blue\">Blog microservice</a>. ",
             "link": "<a href=\"https://github.com/MohitR1999/portfolio-service\" color=\"blue\">(GitHub Monorepo)</a>"
@@ -122,11 +126,6 @@
             "title": "Resume generator",
             "description": "Developed a user-friendly resume generator in Python, designed to be ATS-friendly, configurable, and effortlessly usable. This resume was generated using the tool.",
             "link": "<a href=\"https://github.com/MohitR1999/ats-friendly-resume\" color=\"blue\">(GitHub)</a>"
-        },
-        {
-            "title": "Vitarit File Pranali",
-            "description": "Implemented a distributed file system using Python and rpyc, demonstrating the foundational concepts of data replication and redundancy.",
-            "link": "<a href=\"https://github.com/MohitR1999/vitarit-file-pranali\" color=\"blue\">(GitHub)</a>"
         }
     ]
 }
