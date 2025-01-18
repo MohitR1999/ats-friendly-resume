@@ -62,8 +62,8 @@
         {
             "title" : "Programming Languages",
             "elements" : [
-                "Python",
                 "JavaScript",
+                "Python",
                 "Java",
                 "C++"
             ]
@@ -77,9 +77,7 @@
                 "React Native",
                 "Redux",
                 "Selenium",
-                "socket.io",
-                "Spring",
-                "Spring boot"
+                "socket.io"
             ]
         },
 
@@ -113,14 +111,14 @@
     ],
     "projects": [
         {
-            "title": "Vitarit File Pranali",
-            "description": "Implemented a scalable distributed file system using Python and rpyc, focusing on fault tolerance and efficient data replication. Developed redundancy mechanisms to ensure high availability and resilience to node failures.",
-            "link": "<a href=\"https://github.com/MohitR1999/vitarit-file-pranali\" color=\"blue\">(GitHub)</a>"
-        },
-        {
             "title": "Blog portal (In progress)",
             "description": "A blog management and reading portal, based on microservices architecture, built using MERN stack with Nginx as reverse proxy, and being tracked using GitHub Projects. Currently having <a href=\"https://github.com/MohitR1999/portfolio-auth-microservice/\" color=\"blue\">Authentication microservice</a> and <a href=\"https://github.com/MohitR1999/portfolio-blog-microservice/\" color=\"blue\">Blog microservice</a>. ",
             "link": "<a href=\"https://github.com/MohitR1999/portfolio-service\" color=\"blue\">(GitHub Monorepo)</a>"
+        },
+        {
+            "title": "Vitarit File Pranali",
+            "description": "Implemented a scalable distributed file system using Python and rpyc, focusing on fault tolerance and efficient data replication. Developed redundancy mechanisms to ensure high availability and resilience to node failures.",
+            "link": "<a href=\"https://github.com/MohitR1999/vitarit-file-pranali\" color=\"blue\">(GitHub)</a>"
         },
         {
             "title": "Resume generator",
