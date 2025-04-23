@@ -74,11 +74,11 @@
             "title" : "Frameworks and Libraries",
             "elements" : [
                 "Express",
+                "Next.js",
                 "Node.js",
                 "React.js",
                 "React Native",
                 "Redux",
-                "React Router",
                 "Selenium",
                 "socket.io"
             ]
@@ -114,6 +114,11 @@
     ],
     "projects": [
         {
+            "title": "IPL Info",
+            "description": "A web app showcasing real-time commentary and score updates, match schedule, and points table for IPL (Indian Premier League). Built using Next.js, React.js, and Express framework",
+            "link": "<a href=\"https://github.com/MohitR1999/ipl-info\" color=\"blue\">(GitHub)</a>"
+        },
+        {
             "title": "Blog portal (In progress)",
             "description": "A blog management and reading portal, based on microservices architecture, built using MERN stack with Nginx as reverse proxy, and being tracked using GitHub Projects. Currently having <a href=\"https://github.com/MohitR1999/portfolio-auth-microservice/\" color=\"blue\">Authentication microservice</a> and <a href=\"https://github.com/MohitR1999/portfolio-blog-microservice/\" color=\"blue\">Blog microservice</a>. ",
             "link": "<a href=\"https://github.com/MohitR1999/portfolio-service\" color=\"blue\">(GitHub Monorepo)</a>"
@@ -122,11 +127,6 @@
             "title": "Vitarit File Pranali",
             "description": "Implemented a scalable distributed file system using Python and rpyc, focusing on fault tolerance and efficient data replication. Developed redundancy mechanisms to ensure high availability and resilience to node failures.",
             "link": "<a href=\"https://github.com/MohitR1999/vitarit-file-pranali\" color=\"blue\">(GitHub)</a>"
-        },
-        {
-            "title": "Resume generator",
-            "description": "Developed a user-friendly resume generator in Python, designed to be ATS-friendly, configurable, and effortlessly usable. This resume was generated using the tool.",
-            "link": "<a href=\"https://github.com/MohitR1999/ats-friendly-resume\" color=\"blue\">(GitHub)</a>"
         }
     ]
 }
