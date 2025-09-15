@@ -16,8 +16,8 @@
             "start_date": "July 2025",
             "end_date": "Present",
             "description": [
-                "Reduced overall operational expediture on Sprig by 50%, by filtering out non-essential events.",
-                "Integrated Equifax in customer onboarding flows, thereby enabling automated KYC processes and streamlining operations, saving upto 90% manual efforts in verification.",
+                "Reduced overall operational expediture on <a href=\"https://sprig.com/\" color=\"blue\">Sprig</a> by 50%, by filtering out non-essential events.",
+                "Integrated <a href=\"https://www.equifax.co.in/\" color=\"blue\">Equifax</a> in customer onboarding flows, thereby enabling automated KYC processes and streamlining operations, saving upto 90% manual efforts in verification.",
                 "Improved Github Actions CI workflows by integrating Terraform for resource configuration, reducing downtime to under 1 sec."
             ]
         },
