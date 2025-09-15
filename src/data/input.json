@@ -10,16 +10,28 @@
     ],
     "experience": [
         {
+            "title": "Tech Lead",
+            "company": "OakNorth India",
+            "location": "Gurugram, Haryana, India",
+            "start_date": "July 2025",
+            "end_date": "Present",
+            "description": [
+                "Reduced overall operational expediture on Sprig by 50%, by filtering out non-essential events.",
+                "Integrated Equifax in customer onboarding flows, thereby enabling automated KYC processes and streamlining operations, saving upto 90% manual efforts in verification.",
+                "Improved Github Actions CI workflows by integrating Terraform for resource configuration, reducing downtime to under 1 sec."
+            ]
+        },
+        
+        {
             "title": "Senior Engineer",
             "company": "Tejas Networks Ltd.",
             "location": "Gurugram, Haryana, India",
             "start_date": "April 2024",
-            "end_date": "Present",
+            "end_date": "July 2025",
             "description": [
                 "Led the complete architecture design and development of network visualization microservice for BSNL's MPLS-IP based Access and Aggregation Network (MAAN), for pan India BSNL 4G rollout, using React.js, Cytoscape.js and Express framework.",
                 "Optimized a critical database query fetching network elements within an organization, reducing execution time from 10 seconds to 0.3 seconds for over 5,000 rows.",
-                "Devised an efficient, real time performance throughput monitoring utility for network bandwidth utilization within a network using Highcharts.js, enabling administrators for effective monitoring and management of devices.",
-                "Improved user experience by implementing asynchronous calls using promises in javascript, reducing overall application loading time from 10 to 0.5 seconds."
+                "Devised an efficient, real time performance throughput monitoring utility for network bandwidth utilization within a network using Highcharts.js, enabling administrators for effective monitoring and management of devices."
             ]
         },
         {
@@ -30,8 +42,7 @@
             "end_date": "April 2024",
             "description": [
                 "Guided cross-functional teams in transitioning version control systems from CVS to Git, improving collaboration efficiency by 50%.",
-                "Led front-end modernization, transitioning legacy Java Swing-based UI to modern React.js architecture with Redux and Material UI, improving load times from 30 seconds to 3 seconds.",
-                "Introduced automated regression testing using Selenium and TestNG, cutting testing efforts by 60% and ensuring 90% test coverage."
+                "Led front-end modernization, transitioning legacy Java Swing-based UI to modern React.js architecture with Redux and Material UI, improving load times from 30 seconds to 3 seconds."
             ]
         },
         {
@@ -85,17 +96,6 @@
         },
 
         {
-            "title" : "Tools",
-            "elements" : [
-                "Docker",
-                "Git",
-                "Jira",
-                "Linux",
-                "CVS"
-            ]
-        },
-
-        {
             "title" : "Databases",
             "elements" : [
                 "MySQL",
@@ -104,11 +104,12 @@
         },
 
         {
-            "title" : "Cloud",
+            "title" : "Cloud & DevOps",
             "elements" : [
-                "Microsoft Azure",
-                "GCP",
-                "AWS"
+                "AWS",
+                "Github Actions",
+                "Terraform",
+                "Docker"
             ]
         }
     ],
@@ -122,11 +123,6 @@
             "title": "Blog portal (In progress)",
             "description": "A blog management and reading portal, based on microservices architecture, built using MERN stack with Nginx as reverse proxy, and being tracked using GitHub Projects. Currently having <a href=\"https://github.com/MohitR1999/portfolio-auth-microservice/\" color=\"blue\">Authentication microservice</a> and <a href=\"https://github.com/MohitR1999/portfolio-blog-microservice/\" color=\"blue\">Blog microservice</a>. ",
             "link": "<a href=\"https://github.com/MohitR1999/portfolio-service\" color=\"blue\">(GitHub Monorepo)</a>"
-        },
-        {
-            "title": "Vitarit File Pranali",
-            "description": "Implemented a scalable distributed file system using Python and rpyc, focusing on fault tolerance and efficient data replication. Developed redundancy mechanisms to ensure high availability and resilience to node failures.",
-            "link": "<a href=\"https://github.com/MohitR1999/vitarit-file-pranali\" color=\"blue\">(GitHub)</a>"
         }
     ]
 }
