@@ -63,6 +63,8 @@ if __name__ == "__main__":
     email = 'abc@xyz.com'
     address = 'XXX'
     phone = '00-0000000000'
+    website = ''
+    text = ''
     
     if (os.path.isfile('./constants/config.ini')):
         config = configparser.ConfigParser()
@@ -86,6 +88,14 @@ if __name__ == "__main__":
         # Check if author is present
         if (config.has_option('global', 'phone')):
             phone = config.get('global', 'phone')
+            
+        # Check if website is present
+        if (config.has_option('global', 'website')):
+            website = config.get('global', 'website')
+            
+        # Check if website text is present
+        if (config.has_option('global', 'website_text')):
+            text = config.get('global', 'website_text')
 
     OUTPUT_PDF_PATH = f"./{author.lower().replace(' ', '_')}_resume.pdf"
     
@@ -134,7 +144,7 @@ if __name__ == "__main__":
     running_row_index[0] += 1
     
     table.append([
-        Paragraph(f"{email} | {phone} | {address}", CONTACT_PARAGRAPH_STYLE),
+        Paragraph(f"{email} | {phone} | {address} | <a href='{website}' color='blue'>{text}</a>", CONTACT_PARAGRAPH_STYLE),
     ])
     table_styles.append(('BOTTOMPADDING', (0, running_row_index[0]), (1, running_row_index[0]), 1))
     running_row_index[0] += 1
