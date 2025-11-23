@@ -10,15 +10,15 @@
     ],
     "experience": [
         {
-            "title": "Tech Lead",
+            "title": "Mobile Fullstack Engineer II",
             "company": "OakNorth India",
             "location": "Gurugram, Haryana, India",
             "start_date": "July 2025",
             "end_date": "Present",
             "description": [
+                "Currently leading the development of OakNorth Personal Savings mobile app to React Native, handling integrations with Iterable, Segment and core banking solutions with user privacy in focus. <a href=\"https://play.google.com/store/apps/details?id=com.oaknorth.oaknorthmobilebanking\" color=\"blue\">(Google Play)</a> <a href=\"https://apps.apple.com/gb/app/oaknorth-personal/id1476387507\" color=\"blue\">(App store)</a>",
                 "Reduced overall operational expediture on <a href=\"https://sprig.com/\" color=\"blue\">Sprig</a> by 50%, by filtering out non-essential events.",
-                "Integrated <a href=\"https://www.equifax.co.in/\" color=\"blue\">Equifax</a> in customer onboarding flows, thereby enabling automated KYC processes and streamlining operations, saving upto 90% manual efforts in verification.",
-                "Improved Github Actions CI workflows by integrating Terraform for resource configuration, reducing downtime to under 1 sec."
+                "Integrated <a href=\"https://www.equifax.co.in/\" color=\"blue\">Equifax</a> in customer onboarding flows, thereby enabling automated KYC processes and streamlining operations, saving upto 90% manual efforts in verification."
             ]
         },
         
@@ -73,6 +73,7 @@
         {
             "title" : "Programming Languages and Technologies",
             "elements" : [
+                "Typescript",
                 "JavaScript",
                 "HTML5",
                 "CSS3",
@@ -84,12 +85,13 @@
         {
             "title" : "Frameworks and Libraries",
             "elements" : [
-                "Express",
-                "Next.js",
-                "Node.js",
-                "React.js",
                 "React Native",
+                "React.js",
+                "Express",
+                "Node.js",
+                "Zustand",
                 "Redux",
+                "Next.js",
                 "Selenium",
                 "socket.io"
             ]
@@ -115,14 +117,14 @@
     ],
     "projects": [
         {
+            "title": "ArthSaathi (In progress)",
+            "description": "<a href=\"https://gyansagar.info/arthsaathi\" color=\"blue\">ArthSaathi</a> is your personal financial assistant, aiming to keep a check on your expenses and build wealth. Built using React Native, TypeScript, Express.js and MySQL. Cloud native from ground-up. Batteries-included for complete local development",
+            "link": "<a href=\"https://github.com/MohitR1999/arthsaathi\" color=\"blue\">(GitHub Monorepo)</a>"
+        },
+        {
             "title": "IPL Info",
             "description": "A web app showcasing real-time commentary and score updates, match schedule, and points table for IPL (Indian Premier League). Built using Next.js, React.js, and Express framework",
             "link": "<a href=\"https://github.com/MohitR1999/ipl-info\" color=\"blue\">(GitHub)</a>"
-        },
-        {
-            "title": "Blog portal (In progress)",
-            "description": "A blog management and reading portal, based on microservices architecture, built using MERN stack with Nginx as reverse proxy, and being tracked using GitHub Projects. Currently having <a href=\"https://github.com/MohitR1999/portfolio-auth-microservice/\" color=\"blue\">Authentication microservice</a> and <a href=\"https://github.com/MohitR1999/portfolio-blog-microservice/\" color=\"blue\">Blog microservice</a>. ",
-            "link": "<a href=\"https://github.com/MohitR1999/portfolio-service\" color=\"blue\">(GitHub Monorepo)</a>"
         }
     ]
 }
