@@ -16,7 +16,8 @@
             "start_date": "July 2025",
             "end_date": "Present",
             "description": [
-                "Currently leading the development of OakNorth Personal Savings mobile app to React Native, handling integrations with Iterable, Segment and core banking solutions with user privacy in focus. <a href=\"https://play.google.com/store/apps/details?id=com.oaknorth.oaknorthmobilebanking\" color=\"blue\">(Google Play)</a> <a href=\"https://apps.apple.com/gb/app/oaknorth-personal/id1476387507\" color=\"blue\">(App store)</a>",
+                "Currently leading the development of OakNorth Personal Savings web and mobile app, using React.js and React Native, handling integrations with Iterable, Segment and core banking solutions with user privacy in focus. <a href=\"https://play.google.com/store/apps/details?id=com.oaknorth.oaknorthmobilebanking\" color=\"blue\">(Google Play)</a> <a href=\"https://apps.apple.com/gb/app/oaknorth-personal/id1476387507\" color=\"blue\">(App store)</a>",
+                "Established an automated testing framework using React Testing Library and React Native Testing Library, enabling faster, safer deployments.",
                 "Reduced overall operational expediture on <a href=\"https://sprig.com/\" color=\"blue\">Sprig</a> by 50%, by filtering out non-essential events.",
                 "Integrated <a href=\"https://www.equifax.co.in/\" color=\"blue\">Equifax</a> in customer onboarding flows, thereby enabling automated KYC processes and streamlining operations, saving upto 90% manual efforts in verification."
             ]
@@ -30,7 +31,6 @@
             "end_date": "July 2025",
             "description": [
                 "Led the complete architecture design and development of network visualization microservice for BSNL's MPLS-IP based Access and Aggregation Network (MAAN), for pan India BSNL 4G rollout, using React.js, Cytoscape.js and Express framework.",
-                "Optimized a critical database query fetching network elements within an organization, reducing execution time from 10 seconds to 0.3 seconds for over 5,000 rows.",
                 "Devised an efficient, real time performance throughput monitoring utility for network bandwidth utilization within a network using Highcharts.js, enabling administrators for effective monitoring and management of devices."
             ]
         },
@@ -64,7 +64,7 @@
             "end_date": "May 2020",
             "description": [
                 "Led the UI development of Stepswatch mobile app based on Flux architecture using React Native and Redux achieving intuitive and performant interfaces.",
-                "Built backend microservices, including a real-time chat feature, with Socket.io, ensuring 98% uptime for instant communication.",
+                "Built a real-time chat feature with Socket.io, ensuring 98% uptime for instant communication.",
                 "Secured user data by implementing JWT-based authentication within Express microservices, maintaining a 99% success rate in safeguarding information."
             ]
         }
@@ -87,12 +87,11 @@
             "elements" : [
                 "React Native",
                 "React.js",
+                "React Testing Library",
                 "Express",
                 "Node.js",
                 "Zustand",
                 "Redux",
-                "Next.js",
-                "Selenium",
                 "socket.io"
             ]
         },
