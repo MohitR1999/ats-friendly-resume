@@ -117,7 +117,7 @@
     "projects": [
         {
             "title": "ArthSaathi (In progress)",
-            "description": "<a href=\"https://gyansagar.info/arthsaathi\" color=\"blue\">ArthSaathi</a> is your personal financial assistant, aiming to keep a check on your expenses and build wealth. Built using React Native, TypeScript, Express.js and MySQL. Cloud native from ground-up. Batteries-included for complete local development",
+            "description": "<a href=\"https://gyansagar.info/arthsaathi\" color=\"blue\">ArthSaathi</a> is your personal financial assistant, aiming to keep a check on your expenses and build wealth. Built using React Native, TypeScript, Zustand, Express.js and MySQL. Cloud native from ground-up. Batteries-included for complete local development",
             "link": "<a href=\"https://github.com/MohitR1999/arthsaathi\" color=\"blue\">(GitHub Monorepo)</a>"
         },
         {
